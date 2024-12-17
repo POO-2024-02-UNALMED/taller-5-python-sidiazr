@@ -28,3 +28,16 @@ class Animal:
             return f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, y mi genero es {self._genero}"
         else:
             return f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, y mi genero es {self._genero}, la zona en la que me ubico es {self._zona}, en el {self._zona.getZoo()}"
+        
+    
+    def getNombre(self):
+        return self._nombre
+    
+    def getEdad(self):
+        return self._edad
+    
+    def getHabitat(self):
+        return self._habitat
+    
+    def getGenero(self):
+        return self._genero
